@@ -1,0 +1,924 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V12.0
+! INFO-      
+! INFO-     Start of Translation: 8-SEP-2024  5:59:19 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\user\Desktop\UR3\uploads_files_3281847_eSeries_UR3e (1).STEP
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      STEP AP214
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        UR3_G5_all_inclusive_new.STEP
+! SUMMARY-  Date             2018-06-27T11:31:58
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      SwSTEP 2.0
+! SUMMARY-  Orig_System      SolidWorks 2015
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   6092
+! SUMMARY-  application_context ........................................:     16
+! SUMMARY-  axis2_placement_3d .........................................:   8939
+! SUMMARY-  b_spline_curve_with_knots ..................................:   4794
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    827
+! SUMMARY-  b_spline_surface_with_knots ................................:    415
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:   2004
+! SUMMARY-  brep_with_voids ............................................:      2
+! SUMMARY-  cartesian_point ............................................: 173725
+! SUMMARY-  circle .....................................................:   5256
+! SUMMARY-  closed_shell ...............................................:     41
+! SUMMARY-  conical_surface ............................................:    491
+! SUMMARY-  context_dependent_shape_representation .....................:      7
+! SUMMARY-  cylindrical_surface ........................................:   1457
+! SUMMARY-  direction ..................................................:  21698
+! SUMMARY-  edge_curve .................................................:  14697
+! SUMMARY-  edge_loop ..................................................:   6397
+! SUMMARY-  face_bound .................................................:    305
+! SUMMARY-  face_outer_bound ...........................................:   6092
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:   6074
+! SUMMARY-  item_defined_transformation ................................:      7
+! SUMMARY-  length_unit_and_si_unit ....................................:   6074
+! SUMMARY-  line .......................................................:   3820
+! SUMMARY-  manifold_solid_brep ........................................:     30
+! SUMMARY-  next_assembly_usage_occurrence .............................:      7
+! SUMMARY-  oriented_closed_shell ......................................:      9
+! SUMMARY-  oriented_edge ..............................................:  29394
+! SUMMARY-  plane ......................................................:   1214
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:   6074
+! SUMMARY-  product ....................................................:      8
+! SUMMARY-  product_context ............................................:      8
+! SUMMARY-  product_definition .........................................:      8
+! SUMMARY-  product_definition_context .................................:      8
+! SUMMARY-  product_definition_formation_with_specified_source .........:      8
+! SUMMARY-  product_definition_shape ...................................:     15
+! SUMMARY-  product_related_product_category ...........................:      8
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:      7
+! SUMMARY-  shape_representation .......................................:      8
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:   6074
+! SUMMARY-  spherical_surface ..........................................:    158
+! SUMMARY-  toroidal_surface ...........................................:    353
+! SUMMARY-  uncertainty_measure_with_unit ..............................:   6074
+! SUMMARY-  vector .....................................................:   3820
+! SUMMARY-  vertex_point ...............................................:   8880
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         331395
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 8-SEP-2024 5:59:23 PM
+! STATUS-    
+! INFO-     CV0305 The entities referenced by a context_dependant_shape_rep are
+! INFO-       not coded as to STEP Part 43 requirements.  The references to the
+! INFO-       component and assembly pieces is out of order.  We will attempt
+! INFO-       to correct this with the given data.  This problem should be
+! INFO-       reported to the translator vendor whose product generated this
+! INFO-       STEP file.  If we are unable to rectify this problem the
+! INFO-       components may be positioned incorrectly.
+! INFO-      
+! INFO-     CV : STEP Ent Id      55265 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      61511 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     365980 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      66056 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     336466 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      65668 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     334581 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     179390 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     356515 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     288722 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     372486 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     252718 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     261941 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     202676 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     364894 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     150665 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      75148 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      89091 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      13652 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      78659 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     183376 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     154697 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     387799 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     184367 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     174074 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      34379 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     234707 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     337545 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     352897 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       7098 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     243551 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id       1029 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     258704 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      88536 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     174240 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     134799 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than 0.  Attempting to create a degenerate 
+! INFO-     toroidal surface.  Assuming it is a lemon-shaped toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     249817 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     114499 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     206234 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      36275 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     107027 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     136594 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     318799 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     287579 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     115423 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id      64213 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     222677 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! INFO-     CV : STEP Ent Id     287078 violates STEP standard
+! INFO-     Invalid toroidal_surface definition. 
+! INFO-     Major radius less than minor radius.  Attempting to create a 
+! INFO-     degenerate toroidal surface.  Assuming it is an apple-shaped 
+! INFO-     toroidal surface. 
+! INFO-     Recommend trying a STEP file based on an AP (e.g. AP214 STEP file) 
+! INFO-     which supports degenerate_toroidal_surfaces. 
+! INFO-      
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  5:59:27 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 356822
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 199485
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 18062
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 187371
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 327802
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13828 - RTSTSH: Inconsistent shells.
+! WARNING-  solid body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\Copy of Link6_UR3_G5^1000513
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  5:59:27 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 385952
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 64033
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\Copy of Link1_UR3_G5^1000513
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  5:59:55 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 298826
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 228625
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 330631 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -30.746039 19.209481 -0.015607
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body (Boss-Extrude2) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\Copy of Link5_UR3_G5^1000513
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  6:00:01 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 344738
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 47056
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 216579
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 315697
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 88154
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 5916
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 146340
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 175339
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 257630
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 274589
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 339799
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 203440 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -4.295260 8.410360 486.470468
+! INFO-     Degeneracy in b-spline entity 1265 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -8.767491 13.836582 477.017257
+! INFO-     Degeneracy in b-surface entity 33133 in U direction was corrected at
+! INFO-     or around these locations.  A shape change has resulted:
+! INFO-         -10.907461 11.511028 488.342207
+! INFO-     Degeneracy in b-surface entity 33133 in U direction was corrected at
+! INFO-     or around these locations.  A shape change has resulted:
+! INFO-         -10.907461 11.511028 488.139228
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   fixing self-intersecting, invalid and/or degenerate edge faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13805 - RTSTGX: Self-intersecting edge curve.
+! WARNING-  solid body (64520-1/PhoenixContact-Plug straight Cable connector - SH-8EPC58A8LB2S- 1621532^64520-1-solid1) contains faults that could not be corrected
+! WARNING-   
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 158316
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 286633
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 117203
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 76116
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 204440
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13828 - RTSTSH: Inconsistent shells.
+! WARNING-  solid body (Unnamed) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\Copy of Base_UR3_G5^1000513
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    16
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             16
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  6:00:10 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 245561
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 129287
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 185063 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -30.746039 19.209481 -0.015607
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body (Boss-Extrude2) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\Copy of Link4_UR3_G5^1000513
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  6:00:15 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 134252
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 368910
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 104327 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -30.746039 19.209481 -0.015607
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body (Boss-Extrude5) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\Copy of Link3_UR3_G5^1000513
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  6:00:22 PM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 105185
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 269719
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 34970
+! STATUS-    
+! INFO-     Degeneracy in b-spline entity 144060 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -278.490652 48.349771 -1.317120
+! INFO-     Degeneracy in b-spline entity 94429 was corrected at or around these
+! INFO-     locations.  A shape change has resulted:
+! INFO-         -278.490643 48.349762 1.317241
+! STATUS-   fixing vertex off curve and/or edge reversed faults
+! STATUS-    
+! STATUS-   fixing vertex and/or edge off surface faults
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body contains fault: 13823 - RTSTES: Edge not on surface.
+! WARNING-  solid body (Boss-Extrude5) contains faults that could not be corrected
+! WARNING-   
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\Copy of Link2_UR3_G5^1000513
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 8-SEP-2024  6:00:36 PM
+! INFO-     Filing Part ..: C:\Users\user\Desktop\UR3\uploads_files_3281847_eSeries_UR3e _1__step.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        32
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        25
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         7
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 8-SEP-2024  6:00:37 PM
+! INFO-      
