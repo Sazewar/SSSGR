@@ -1,0 +1,587 @@
+Input file: C:\Users\Sazewar\Desktop\SSSGR\SSSGR\SSSGR.000.000.000\2f-140_assy_open_20191022_step_motion1-solution_2.minp
+
+Solver running in Simcenter Mode
+
+
+Solver: Simcenter Motion Version 12.0.2 (12.0) May 29 2018 01:03:28 Intel Release 64bit
+Interface: R12.0.2P9_rc2 2018-06-20
+Hostname: DESKTOP-4US5U5O
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+LMSMOTGGL is active
+
+[1482]
+NOTE:  The system data element specifies inconsistent units:
+  LENGTH.UNIT = MILLIMETER
+  MASS.UNIT   = KILOGRAM
+  FORCE.UNIT  = NEWTON
+Force and mass values are converted to a consistent set of units for
+solution and then converted back to the specified units before being
+reported.
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+License Server is [27800@localhost]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   48
+Number of generalized coordinates     =                   52
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.270006E-11
+
+ Element: L001
+    Coordinate    New Value     Original Value  Difference
+    X             0.28688        0.28688         0.0000    
+    Y              32.340         32.340         0.0000    
+    Z              211.36         211.36         0.0000    
+    E0            0.50034        0.50034         0.0000    
+    E1           -0.49948       -0.49948         0.0000    
+    E2           -0.49966       -0.49966         0.0000    
+    E3           -0.50051       -0.50051         0.0000    
+
+ Element: L002
+    Coordinate    New Value     Original Value  Difference
+    X             -46.954        -46.954         0.0000    
+    Y              101.92         101.92         0.0000    
+    Z              211.28         211.28         0.0000    
+    E0            0.66358        0.66358         0.0000    
+    E1            0.66358        0.66358         0.0000    
+    E2            0.24427        0.24427         0.0000    
+    E3            0.24427        0.24427         0.0000    
+
+ Element: L003
+    Coordinate    New Value     Original Value  Difference
+    X             -52.643        -52.643         0.0000    
+    Y              53.767         53.767         0.0000    
+    Z              211.33         211.33         0.0000    
+    E0            0.70549        0.70549         0.0000    
+    E1            0.47853E-01    0.47853E-01     0.0000    
+    E2           -0.70549       -0.70549         0.0000    
+    E3            0.47853E-01    0.47853E-01     0.0000    
+
+ Element: L004
+    Coordinate    New Value     Original Value  Difference
+    X             -75.652        -75.652         0.0000    
+    Y              85.751         85.751         0.0000    
+    Z              211.34         211.34         0.0000    
+    E0            0.68827        0.68827         0.0000    
+    E1            0.68817        0.68817         0.0000    
+    E2            0.16228        0.16228         0.0000    
+    E3            0.16243        0.16243         0.0000    
+
+ Element: L005
+    Coordinate    New Value     Original Value  Difference
+    X             -79.145        -79.145         0.0000    
+    Y              157.42         157.42         0.0000    
+    Z              211.33         211.33         0.0000    
+    E0            0.43849        0.43849         0.0000    
+    E1           -0.55473       -0.55473         0.0000    
+    E2           -0.43849       -0.43849         0.0000    
+    E3           -0.55473       -0.55473         0.0000    
+
+ Element: L006
+    Coordinate    New Value     Original Value  Difference
+    X              1.0000         1.0000         0.0000    
+    Y              163.00         163.00         0.0000    
+    Z              213.00         213.00         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: D001
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.21907E-13    0.21907E-13     0.0000    
+
+ Element: S001
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.21907E-13    0.21907E-13     0.0000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.25181E-14   -0.25181E-14     0.0000    
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J005
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J005_j"
+
+ Name: J005
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J005_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 3) relative translation along Z axis of "Global coordinate system"
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J005
+     constraint ( 4) relative rotation about X axis of "L002/J005_j"
+     is linearly dependent to:
+
+     Name: J001
+        Constraint: ( 4) relative rotation about X axis of "L001/J001_j"  Factor:   -1.000    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "L003/J003_j"  Factor:   0.9641    
+     Name: J002
+        Constraint: ( 4) relative rotation about X axis of "L001/J002_j"  Factor:   0.4759    
+     Name: J004
+        Constraint: ( 4) relative rotation about X axis of "L004/J004_j"  Factor:   0.9641    
+
+Name: J005
+     constraint ( 5) relative rotation about Y axis of "L002/J005_j"
+     is linearly dependent to:
+
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "L001/J002_j"  Factor:   0.4759    
+     Name: J001
+        Constraint: ( 5) relative rotation about Y axis of "L001/J001_j"  Factor:   -1.000    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "L003/J003_j"  Factor:   0.9639    
+     Name: J004
+        Constraint: ( 5) relative rotation about Y axis of "L004/J004_j"  Factor:   0.9639    
+
+Name: J001
+     constraint ( 3) relative translation along Z axis of "Global coordinate system"
+     is linearly dependent to:
+
+     Name: L001
+        Constraint: ( 7) absolute rotation of "L001/L001_cm"  Factor:  -0.8565E-01
+     Name: L001
+        Constraint: ( 7) absolute rotation of "L001/L001_cm"  Factor:   0.8550E-01
+     Name: L001
+        Constraint: ( 7) absolute rotation of "L001/L001_cm"  Factor:   0.8554E-01
+     Name: L001
+        Constraint: ( 7) absolute rotation of "L001/L001_cm"  Factor:   0.7030E-01
+     Name: L002
+        Constraint: ( 8) Euler parameter normalization of "L002/L002_cm"  Factor:   0.5554E-01
+     Name: L003
+        Constraint: ( 8) Euler parameter normalization of "L003/L003_cm"  Factor:   0.5460E-01
+     Name: J001
+        Constraint: ( 4) relative rotation about X axis of "L001/J001_j"  Factor:    1.076    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "L003/J003_j"  Factor:   -1.105    
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "L001/J002_j"  Factor:   0.3168    
+     Name: J002
+        Constraint: ( 4) relative rotation about X axis of "L001/J002_j"  Factor:  -0.5559    
+     Name: J001
+        Constraint: ( 5) relative rotation about Y axis of "L001/J001_j"  Factor:  -0.9190    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "L003/J003_j"  Factor:   0.3276    
+     Name: J004
+        Constraint: ( 5) relative rotation about Y axis of "L004/J004_j"  Factor:  -0.2442    
+     Name: J004
+        Constraint: ( 4) relative rotation about X axis of "L004/J004_j"  Factor:  -0.8888E-01
+     Name: J002
+        Constraint: ( 3) relative translation along Z axis of "Global coordinate system"  Factor:   0.3889    
+     Name: J003
+        Constraint: ( 3) relative translation along Z axis of "Global coordinate system"  Factor:   0.6569    
+     Name: J005
+        Constraint: ( 3) relative translation along Z axis of "Global coordinate system"  Factor:  -0.8532    
+     Name: J004
+        Constraint: ( 3) relative translation along Z axis of "Global coordinate system"  Factor:   0.8640    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: L006
+    Coordinate:  E1        
+
+ Element: L006
+    Coordinate:  X         
+
+ Element: L005
+    Coordinate:  Y         
+
+ Element: L006
+    Coordinate:  Y         
+
+ Element: L006
+    Coordinate:  Z         
+
+ Element: L006
+    Coordinate:  E3        
+
+ Element: L006
+    Coordinate:  E2        
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: L001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: L002
+    Coordinate    Velocity
+    X             -2.05733    
+    Y             -1.75542    
+    Z             0.299638E-11
+    E0           -0.620694E-02
+    E1           -0.620694E-02
+    E2            0.168618E-01
+    E3            0.168618E-01
+
+ Element: L003
+    Coordinate    Velocity
+    X             -2.01494    
+    Y              38.9717    
+    Z             0.114340E-12
+    E0            0.417594E-01
+    E1           -0.615652    
+    E2           -0.417594E-01
+    E3           -0.615652    
+
+ Element: L004
+    Coordinate    Velocity
+    X             -4.62945    
+    Y              34.6303    
+    Z             0.313604E-12
+    E0           -0.202327E-01
+    E1           -0.202134E-01
+    E2            0.857180E-01
+    E3            0.857304E-01
+
+ Element: L005
+    Coordinate    Velocity
+    X              32.9452    
+    Y              0.00000    
+    Z             0.423476E-11
+    E0           -0.512035    
+    E1           -0.404736    
+    E2            0.512035    
+    E3           -0.404736    
+
+ Element: L006
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: D001
+    Coordinate    Velocity
+    Rel.angle      0.00000    
+
+ Element: S001
+    Coordinate    Velocity
+    Rel.angle      0.00000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    Velocity
+    Rel.angle     -1.74533    
+
+Solution of velocities in local coordinates:
+
+ Element: L001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: L002
+    Coordinate    Velocity
+    X             -2.05733    
+    Y             -1.75542    
+    Z             0.299638E-11
+    OMEGA_XL      0.212851E-14
+    OMEGA_YL      0.508211E-01
+    OMEGA_ZL     -0.787564E-15
+
+ Element: L003
+    Coordinate    Velocity
+    X             -2.01494    
+    Y              38.9717    
+    Z             0.114340E-12
+    OMEGA_XL      -1.74533    
+    OMEGA_YL      0.150574E-14
+    OMEGA_ZL     -0.233147E-14
+
+ Element: L004
+    Coordinate    Velocity
+    X             -4.62945    
+    Y              34.6303    
+    Z             0.313604E-12
+    OMEGA_XL      0.451412E-04
+    OMEGA_YL      0.249120    
+    OMEGA_ZL      0.466624E-04
+
+ Element: L005
+    Coordinate    Velocity
+    X              32.9452    
+    Y              0.00000    
+    Z             0.423476E-11
+    OMEGA_XL      -1.84606    
+    OMEGA_YL      0.494049E-13
+    OMEGA_ZL     -0.388578E-13
+
+ Element: L006
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    121654
+Number of integer data in the system  =     71607
+
+
+Solution of accelerations in local coordinates:
+
+ Element: L001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: L002
+    Coordinate    Acceleration
+    X             -5406.60    
+    Y             -4613.35    
+    Z             0.121400E-09
+    OMEGAD_XL    -0.426326E-13
+    OMEGAD_YL      133.558    
+    OMEGAD_ZL    -0.284217E-13
+
+ Element: L003
+    Coordinate    Acceleration
+    X              66.0035    
+    Y              42.4884    
+    Z             0.120636E-11
+    OMEGAD_XL     -1.74533    
+    OMEGAD_YL     0.415640E-14
+    OMEGAD_ZL     0.244249E-14
+
+ Element: L004
+    Coordinate    Acceleration
+    X             -4276.77    
+    Y             -3279.60    
+    Z            -0.707187E-10
+    OMEGAD_XL     0.269082E-01
+    OMEGAD_YL      148.498    
+    OMEGAD_ZL     0.278150E-01
+
+ Element: L005
+    Coordinate    Acceleration
+    X             -7411.64    
+    Y             -8496.58    
+    Z             0.145565E-09
+    OMEGAD_XL     -137.310    
+    OMEGAD_YL     0.407852E-11
+    OMEGAD_ZL    -0.549250E-11
+
+ Element: L006
+    Coordinate    Acceleration
+    X              0.00000    
+    Y             -9806.65    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    7
+
+Total Number of Degrees of Freedom =   45
+Number of Kinematic Constraints    =   38
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    7
+At evaluation 6, CAD contact element 2 will not apply force because polygon loops cannot be closed.
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     91
+  Current simulation time =   0.211365E-05
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    117
+  Current simulation time =   0.789330E-01
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J005
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J005_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L001/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 3) relative translation along Z axis of "Global coordinate system"
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     91
+  Current simulation time =   0.727483E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =   0.717238E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     94
+  Current simulation time =   0.724068E-01
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L001/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 3) relative translation along Z axis of "Global coordinate system"
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    104
+  Current simulation time =   0.729388E-01
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J005
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J005_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L001/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 3) relative translation along Z axis of "Global coordinate system"
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     91
+  Current simulation time =   0.723848E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =   0.822325E-01
+
+The number of symbolic factorizations of the Acceleration matrix =                    4
+
+The number of symbolic factorizations of BDF Jacobian matrix =                    9
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                 1611
+  Number of f-s                   =                 8441
+  Number of j-s                   =                  424
+  Ratio of f-s/steps              =  5.2396027312228
+  Ratio of j-s/steps              = 0.26319056486654
+  Current time                    =  1.0000000000000
+  Total velocity computations     =                    2
+  Total position computations     =                    2
+
+Userdef was internal
+
+    Total elapsed CPU time:   6.208000    
+    Total clock time:          6
